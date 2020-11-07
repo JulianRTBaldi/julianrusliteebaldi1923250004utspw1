@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 1;
+}
+
+body{
+    font-family: Calibri, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    background-color: rgb(239, 255, 255);
+}
+
+header{
+    background-color: 	#00008B;
+    color: 	#FFE4C4;
+    height: 80px;
+}
+
+.header_logo{
+    float: left;
+    font-size: 36px;
+    padding: 20px 30px;
+}
+
+.header_nav li{
+    float: left;
+    padding: 20px 10px;
+}
+
+/* MAIN / CONTENT*/
+main{
+    padding: 105px 80px;
+}
+
+.main_container h1{
+    font-size: 95px;
+}
+.main_container span{
+    color: #d40909;
+}
+.main_container h2{
+    font-size: 60px;
+}
+
+.contents{
+    height: 900px;
+    margin-top: 50px;
+}
+.section_title{
+    border-bottom: 2px solid #cecece;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents_item{
+    float: left;
+    margin-right: 40px;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: 	#556B2F;
+    color: #ffffff;
+    padding: 10px 10px;
+    height: 10px;
+}
+
+.footer_logo{
+    float: center;
+    font-size: 10px;
+
+}
+
+.footer_nav{
+    float: center;
+}
+
+.footer_nav li{
+    padding: 10px 20px;
+    float: center;
+}
+
